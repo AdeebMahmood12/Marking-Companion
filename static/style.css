@@ -92,3 +92,57 @@ button {
 button:hover {
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.457);
 }
+.additional div{
+    transition: box-shadow 200ms ease-in-out;
+}
+.additional div:hover{
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.457);
+}
+.github{
+    width: 36px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 4%;
+    left: 95%;
+}
+.discord{
+    width: 36px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 4%;
+    left: 92%;
+}
+.link{
+    margin-top: 6%;
+}
+.discord{
+    width: 36px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 4%;
+    left: 92%;
+}
+.partner{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(171, 80, 80);
+    position: absolute;
+    top: 12%;
+    left: 87%; 
+    opacity: 0;
+    transition: opacity 10s ease-in-out;
+}
+.additional a:hover + .partner{
+    opacity: 1;
+}
