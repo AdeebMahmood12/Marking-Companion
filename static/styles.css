@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Coolvetica;
+    src: url('coolvetica.otf') format('opentype');
+}
+@font-face {
+    font-family: Lemon Milk;
+    src: url('lemon_milk.otf') format('opentype');
+}  
+
+*{
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+.hero{
+    background-image: linear-gradient(to left, #640B0B, #AA4444);
+    padding: 25vh;
+    text-align: center;
+    color: white;
+    font-family: Lemon Milk;
+}
+.hero h1{
+    font-size: 100pt;
+    line-height: 90%;
+    text-align: left;
+}
+.holder{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.now{
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    transition: box-shadow 200ms ease-in-out;
+}
+.now:hover{
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.457);
+}
+a{
+    margin-top: 2%;
+    align-self: flex-start;
+}
+.entry{
+    background-color: #FFC3C3;
+    padding: 25vh;
+}
+input{
+    font-family: Coolvetica;
+    font-size: 15pt;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+#title{
+    padding-left: 5%;
+    border: 2px rgb(99, 12, 22);
+    border-radius: 37px;
+    height: 60px;
+    width: 40%;
+}
+#essay{
+    height: 400px;
+    width: 90%;
+    padding: 5%;
+    border: 2px rgb(99, 12, 22);
+    border-radius: 37px;
+    font-family: Coolvetica;
+    font-size: 10pt;
+    resize: none;
+}
+button {
+    background-color: #6B1111;
+    color: white;
+    padding: 10px 15px;
+    border: 0px;
+    border-radius: 20px;
+    width: 20%;
+    align-items: flex-end;
+    font-family: Lemon Milk;
+    transition: box-shadow 200ms ease-in-out;
+}
+button:hover {
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.457);
+}
